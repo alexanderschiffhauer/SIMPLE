@@ -93,7 +93,7 @@ The following features are supported by this compiler, but are not required in t
 * Support for shadowing a procedure in a recursive procedure
 
 # Build
-	$ make 				# compiles *sc* using the JDK
+	$ make 				# compiles sc using the JDK
 	$ make clean 		# removes files generated during *sc* compilation
 # Run
 	$ ./sc [-(s|c|t|a|i|x)] [filename]
