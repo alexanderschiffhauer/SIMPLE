@@ -42,12 +42,12 @@ The langauge's syntax is defined with the following EBNF:
 
 ## Example
 
-The following example is an implementation of writing a Fibonacci sequence:
+The following example calculates and outputs the nth Fibonacci number, where n is specified from stdin:
 
 	PROGRAM Fibonacci;
 		VAR n, first, second, next, c: INTEGER;
-		BEGIN 
-  		n := 10;
+		BEGIN
+		READ n;
   		c := 0;
   		first := 0;
   		second := 1;
