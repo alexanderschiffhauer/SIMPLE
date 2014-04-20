@@ -42,7 +42,7 @@ The langauge's syntax is defined with the following EBNF:
 
 ## Example
 
-The following example calculates and outputs the nth Fibonacci number, where n is specified from stdin:
+The following example calculates and outputs the *n*th Fibonacci number, where *n* is specified from *stdin*:
 
 	PROGRAM Fibonacci;
 		VAR n, first, second, next, c: INTEGER;
