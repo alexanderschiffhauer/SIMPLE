@@ -57,7 +57,7 @@ The following example is an implementation of writing a Fibonacci sequence:
     		ELSE
       			next := first + second;
       			first := second;
-      			sequenceecond := next
+      			second := next
     		END;
     		WRITE next;
     		c := c + 1
