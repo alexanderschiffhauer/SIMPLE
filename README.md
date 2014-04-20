@@ -47,21 +47,21 @@ The following example calculates and outputs the *n* -th Fibonacci number, where
 	PROGRAM Fibonacci;
 		VAR n, first, second, next, c: INTEGER;
 		BEGIN
-		READ n;
-  		c := 0;
-  		first := 0;
-  		second := 1;
-  		REPEAT
-    		IF c <= 1 THEN
-      			next := c
-    		ELSE
-      			next := first + second;
-      			first := second;
-      			second := next
-    		END;
-    		WRITE next;
-    		c := c + 1
-  		UNTIL c = n END
+			READ n;
+  			c := 0;
+  			first := 0;
+  			second := 1;
+  			REPEAT
+    			IF c <= 1 THEN
+      				next := c
+    			ELSE
+	      			next := first + second;
+	      			first := second;
+      				second := next
+    			END;
+    			WRITE next;
+    			c := c + 1
+  			UNTIL c = n END
 	END Fibonacci.
 
 
